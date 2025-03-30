@@ -14,7 +14,7 @@ namespace PR6_2_Sokolov_Kardonov_522_Test
     public partial class AuthPage : Page
     {
         private int _failedAttempts = 0;
-        private string _currentCaptchaText;
+        internal string _currentCaptchaText;
 
         public AuthPage()
         {
@@ -131,7 +131,17 @@ namespace PR6_2_Sokolov_Kardonov_522_Test
             }
         }
 
-        private void BtnCheckCaptcha_Click(object sender, RoutedEventArgs e)
+        public Visibility GetCaptchaVisibility()
+        {
+            return CaptchaPanel.Visibility;
+        }
+
+        public string GetCurrentCaptchaText()
+        {
+            return _currentCaptchaText;
+        }
+
+        public void BtnCheckCaptcha_Click(object sender, RoutedEventArgs e)
         {
             if (CaptchaTextBox.Text.Equals(_currentCaptchaText, StringComparison.OrdinalIgnoreCase))
             {

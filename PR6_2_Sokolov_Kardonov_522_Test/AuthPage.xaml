@@ -12,7 +12,6 @@
             <Button Content="Регистрация" x:Name="BtnRegister" Click="BtnRegister_Click"/>
         </StackPanel>
 
-        <!-- Капча (изначально скрыта) -->
         <Border x:Name="CaptchaPanel" 
                 Visibility="Collapsed" 
                 Background="White" 
