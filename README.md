@@ -20,5 +20,5 @@
    - правильная генерация и проверка капчи.
 
 4. **Прикрепленные материалы**
-   - [**SQL-скрипт базы данных**](ссылка_на_sql_скрипт)
-   - [**Ссылка на программное решение в СКВ Git**](ссылка_на_репозиторий)
+   - [**SQL-скрипт базы данных**](https://github.com/sh0egaaze/PR6_2_Sokolov_Kardonov_522_Test/blob/master/resources/script.sql)
+   - [**Ссылка на программное решение в СКВ Git**](https://github.com/sh0egaaze/PR6_2_Sokolov_Kardonov_522_Test)
